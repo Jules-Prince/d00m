@@ -1,0 +1,69 @@
+# Build output directory
+out/
+out/bin/
+out/build/
+
+# Binary files
+app
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+app.dSYM/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# CMake build files (if you decide to use CMake later)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Dependency directories that should be ignored if you decide to manage them with a package manager later
+# Uncomment if needed
+# dependencies/
+
+# Custom backup files
+*~
+*.bak
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode specific
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
